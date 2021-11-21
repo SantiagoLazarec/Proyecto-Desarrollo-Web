@@ -1,7 +1,7 @@
 @import "../base/listas";
 
 header { 
-    border: 2px solid nth($colores, 2);
+    border: 2px solid nth($colores, 4);
     border-radius: 10px;
     margin-bottom: 50px; 
     background-color: nth($colores, 1); 
