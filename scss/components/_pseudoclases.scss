@@ -1,0 +1,13 @@
+@import "../base/listas";
+.enlace:hover {
+    background-color: nth($colores, 2);
+    color:nth($colores, 2);
+}
+
+.enlace:active {
+    background-color: nth($colores, 4);
+}
+
+.enlace:visited {
+    color: nth($colores, 5);
+}

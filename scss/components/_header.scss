@@ -1,0 +1,17 @@
+@import "../base/listas";
+
+header { 
+    border: 2px solid nth($colores, 2);
+    border-radius: 10px;
+    margin-bottom: 50px; 
+    background-color: nth($colores, 1); 
+        .Encabezado {
+            color: nth($colores, 3);
+        font-family: 'Lato', sans-serif;
+        font-size: 20px; 
+        text-align: center; 
+        letter-spacing: 1px;
+        text-decoration: none;
+        list-style: none;
+        } 
+    }

@@ -1,0 +1,71 @@
+@import "../base/listas";
+@import "../base/maps"; 
+@import "../base/extends";
+
+.productos-container {
+    color: nth($colores, 2); 
+    font-family: 'Noto Sans JP', sans-serif;   
+    font-size:  25px;
+}
+
+.computacion-container {
+    display: flex;
+    justify-content: start; 
+    .computacion {
+        width: 50%;
+        display: flex;
+        justify-content: space-around; 
+        align-items: center;       
+    }
+}
+
+
+
+.ropa-container {
+    display: flex;
+    justify-content: start;  
+    .ropa {
+        width: 50%;
+        display: flex;
+        justify-content: space-around; 
+        align-items: center; 
+    }
+}
+
+
+
+.deportes-container {
+    display: flex;
+    justify-content: start; 
+    .deportes {
+        width: 50%;
+        display: flex;
+        justify-content: space-around; 
+        align-items: center;  
+    }
+}
+
+
+.electronica-container {
+    display: flex;
+    justify-content: start;   
+    .electronica {
+        width: 50%;
+        display: flex;
+        justify-content: space-around; 
+        align-items: center;        
+    }
+}
+
+
+.imagen-producto-productos:hover {
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+.button-productos {
+    margin: 70px auto; 
+    
+}
+
+/* Fin de productos solos (flexbox)*/

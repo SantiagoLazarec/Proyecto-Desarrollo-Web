@@ -1,0 +1,11 @@
+@import "base/listas"; 
+
+$normal: (
+    bg-normal: nth($colores, 3)
+    color-normal: nth($colores, 2)
+);
+
+$dark: (
+    bg-dark: black
+    color-dark: nth($colores, 3)
+);  

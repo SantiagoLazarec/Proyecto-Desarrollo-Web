@@ -1,0 +1,20 @@
+@import "../base/listas"; 
+
+
+footer {
+    background-color: nth($colores, 1); 
+    border: 2px solid nth($colores, 2);
+    margin-top: 50px;  
+    font-family: 'Lato', sans-serif;
+    color: nth($colores, 3);
+    padding-top: 30px;
+    padding-bottom: 30px;
+        .redes { text-align: right
+     }
+
+     .bi-whatsapp2 {
+        position: fixed; 
+        bottom: 30px;
+        right: 15px; 
+    }
+}
