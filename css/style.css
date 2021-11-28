@@ -230,6 +230,15 @@ footer .bi-whatsapp2 {
   text-align: center;
 }
 
+
+/* Contacto */ 
+
+.formulario {
+  margin-left: 60px;
+  margin-right: 60px;
+  
+}
+
 /* Fin de archivos combinados */
 .contacto {
   font-family: "Noto Sans JP", sans-serif;
