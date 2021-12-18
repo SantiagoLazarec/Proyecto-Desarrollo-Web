@@ -33,10 +33,14 @@ footer .bi-whatsapp2 {
   right: 15px;
 }
 
+/* Solo productos */
+
 .productos-container {
   color: black;
   font-family: "Noto Sans JP", sans-serif;
   font-size: 25px;
+  margin-left: 50px;  
+   
 }
 
 .computacion-container {
@@ -47,8 +51,9 @@ footer .bi-whatsapp2 {
   width: 50%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: center; 
 }
+
 
 .ropa-container {
   display: flex;
@@ -88,8 +93,11 @@ footer .bi-whatsapp2 {
   transition: all 1s;
 }
 
-.button-productos {
+.buttom-productos {
   margin: 70px auto;
+  padding-left: 50px;
+  padding-top: 50px 
+  b
 }
 
 /* Fin de productos solos (flexbox)*/
@@ -185,6 +193,10 @@ footer .bi-whatsapp2 {
 .imagen-producto-index:hover {
   transform: scale(2);
   transition: all 1s;
+}
+
+.busqueda {
+  padding-left: 50px;
 }
 
 /* fin de Index.html solo */
